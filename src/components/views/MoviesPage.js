@@ -18,7 +18,10 @@ export default function MoviesPage() {
       const prevQuery = location.search.split("=")[1];
       searchMovies(prevQuery)
         .then((film) => film.results)
-        .then(setMovies);
+        .then((arr) => {
+          if (arr.length === 0) alert("Nothing found!");
+          setMovies(arr);
+        });
       setQuery(prevQuery);
     }
   }, [location.search]);
