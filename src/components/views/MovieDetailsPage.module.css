@@ -1,0 +1,74 @@
+.button {
+  font-size: 16px;
+  margin-left: 50px;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 150px;
+  outline: none;
+  background-color: rgb(37, 139, 223);
+  color: aliceblue;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.button:hover {
+  font-weight: 700;
+  background-color: rgb(12, 93, 160);
+  box-shadow: 1px 1px rgb(124, 126, 134);
+}
+
+.title {
+  width: 900px;
+}
+
+.img {
+  margin-left: 30px;
+  box-shadow: 3px 3px rgb(241, 236, 236);
+  border-radius: 5px;
+}
+.img:hover {
+  transform: scale(1.02);
+  /* box-shadow: 3px 3px #000; */
+}
+
+.container {
+  display: flex;
+}
+.textContainer {
+  margin-left: 30px;
+  font-size: 18px;
+  width: 1200px;
+  margin-left: 50px;
+}
+.item {
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(160, 186, 235);
+  text-shadow: 1px 1px #000;
+}
+
+.list {
+  list-style: none;
+
+  border-bottom: solid 2px black;
+}
+.item:hover {
+  color: rgb(16, 36, 212);
+  font-weight: 600;
+}
+
+.itemGenre {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+.listGenres {
+  list-style: none;
+  padding: 0;
+}
+.text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}

@@ -1,0 +1,31 @@
+.navLink {
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+
+  margin-bottom: 10px;
+}
+.navLinkRight {
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.navLink__active {
+  color: rgb(220, 234, 245);
+  text-shadow: 3px 3px #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(91, 91, 236);
+}
